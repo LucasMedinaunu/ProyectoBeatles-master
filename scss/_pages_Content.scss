@@ -1,0 +1,21 @@
+/*         Texto e Imagenes        */ 
+#texto_e_imagenes{
+    grid-area: texto_e_imagenes;
+    
+h1,h5{
+        font-size: clamp(0.9rem, 4vw, 1.5rem);
+    }
+    .imgLennon{
+        width: 75%;
+    }
+    
+}
+
+/*             Productos           */
+
+#productsList{
+    grid-area: productsList;
+    h2,h3,h4{
+        font-size: clamp(0.9rem, 4vw, 1.5rem);
+    }
+}
